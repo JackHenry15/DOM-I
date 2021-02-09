@@ -37,6 +37,9 @@ const siteContent = {
   },
 };
 
+// Example: Update the img src for the logo
+let logo = document.getElementById("logo-img");
+logo.setAttribute('src', siteContent["nav"]["img-src"])
 // header region
 
 const sections = document.querySelectorAll('a');
@@ -50,10 +53,32 @@ sections[5].textContent = 'Contact';
 const navBackg = document.querySelector('nav');
 navBackg.style.backgroundColor = 'green';
 
+const newNav = document.createElement('a');
+newNav.textContent = 'Gadgets';
+newNav.href = '#';
+document.querySelector('nav').appendChild(newNav);
 
-// Example: Update the img src for the logo
-let logo = document.getElementById("logo-img");
-logo.setAttribute('src', siteContent["nav"]["img-src"])
+const newerNav = document.createElement('a');
+newerNav.textContent = 'Gizmos';
+newerNav.href = '#';
+document.querySelector('nav').appendChild(newerNav);
+
+//cta
+const ctaH = document.querySelector('h1');
+const ctaBut = document.querySelector('button');
+const ctaImg = document.getElementById("cta-img")
+
+
+ctaH.textContent = 'DOM Is Awesome';
+ctaBut.textContent = 'Get Started';
+ctaImg.setAttribute('src', siteContent["cta"]["img-src"]);
+
+//main
+
+//contact
+
+//footer
+
 
 
 
