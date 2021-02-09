@@ -95,10 +95,18 @@ paragraphs[4].textContent = 'Vision content elementum magna eros, ac posuere elv
 
 
 //contact
+const contactT = document.querySelector('.contact h4')
+const contactP = document.querySelectorAll('.contact p')
+
+contactT.textContent = 'Contact';
+contactP[0].textContent = '123 Way 456 Street Somewhere, USA';
+contactP[1].textContent = '1 (888) 888-8888';
+contactP[2].textContent = 'sales@greatidea.io';
 
 //footer
+const footP = document.querySelector('footer p')
 
-
+footP.textContent = 'Copyright Great Idea! 2018';
 
 
 
