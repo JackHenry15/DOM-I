@@ -37,6 +37,26 @@ const siteContent = {
   },
 };
 
+// header region
+
+const sections = document.querySelectorAll('a');
+sections[0].textContent = 'Services';
+sections[1].textContent = 'Product';
+sections[2].textContent = 'Vision';
+sections[3].textContent = 'Features';
+sections[4].textContent = 'About';
+sections[5].textContent = 'Contact';
+
+const navBackg = document.querySelector('nav');
+navBackg.style.backgroundColor = 'green';
+
+
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+
+
+
+
+
