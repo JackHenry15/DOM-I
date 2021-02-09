@@ -74,6 +74,25 @@ ctaBut.textContent = 'Get Started';
 ctaImg.setAttribute('src', siteContent["cta"]["img-src"]);
 
 //main
+const titles = document.querySelectorAll('.text-content h4')
+const paragraphs = document.querySelectorAll('.text-content p')
+
+titles[0].textContent = 'Features';
+paragraphs[0].textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+titles[1].textContent = 'About';
+paragraphs[1].textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, ininterdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+const midImg = document.getElementById("middle-img")
+midImg.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+
+titles[2].textContent = 'Services';
+paragraphs[2].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+titles[3].textContent = 'Product';
+paragraphs[3].textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+titles[4].textContent = 'Vision';
+paragraphs[4].textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+
 
 //contact
 
